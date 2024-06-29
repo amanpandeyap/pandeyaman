@@ -3997,3 +3997,46 @@ input, select, textarea {
 	body.is-mobile.landing #footer {
 		background-color: #1d242a;
 	}
+	li a {
+		text-decoration: none; 
+	  }
+	/* One */
+.wrapper.style1.special {
+    /* Your styling here */
+}
+
+.wrapper.style1.special .inner {
+    /* Your styling here */
+}
+
+.wrapper.style1.special .major h2 {
+    /* Your styling here */
+}
+
+.wrapper.style1.special .major p {
+    /* Your styling here */
+}
+
+.wrapper.style1.special .icons.major {
+    /* Your styling here */
+}
+
+.wrapper.style1.special .icons.major li {
+    /* Your styling here */
+}
+
+.wrapper.style1.special .icons.major li .icon {
+    /* Your styling here */
+}
+
+.wrapper.style1.special .icons.major li .icon.style1 {
+    /* Your styling here */
+}
+
+.wrapper.style1.special .icons.major li .icon.style2 {
+    /* Your styling here */
+}
+
+.wrapper.style1.special .icons.major li .icon.style3 {
+    /* Your styling here */
+}
