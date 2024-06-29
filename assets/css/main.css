@@ -4049,5 +4049,101 @@ input, select, textarea {
     display: inline-block; /* Ensure the icon is displayed as inline-block */
     text-align: center; /* Center text within the icon */
 }
+/* Center align the hamburger menu and the menu text */
+#header .menuToggle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
-	
+#header .menuToggle span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* Base styles for h2 and h3 */
+h2, h3 {
+    color: #fff;
+    font-weight: 800;
+    letter-spacing: 0.225em;
+    line-height: 1em;
+    margin: 0 0 1em 0;
+    text-transform: uppercase;
+    text-align: center;
+    width: 100%;
+}
+
+/* Specific h2 Styles */
+h2 {
+    font-size: 1.35em;
+    line-height: 1.75em;
+    word-break: break-word;
+    overflow-wrap: break-word;
+}
+
+/* Adjustments for smaller screens */
+@media screen and (max-width: 1024px) {
+    h2 {
+        font-size: 1.2em;
+        line-height: 1.65em;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    h2 {
+        font-size: 1.1em;
+        line-height: 1.5em;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    h2 {
+        font-size: 1em;
+        line-height: 1.4em;
+        padding: 0.25em;
+        margin: 0.25em 0;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    h2 {
+        font-size: 0.9em;
+        line-height: 1.3em;
+        padding: 0.1em;
+        margin: 0.1em 0;
+    }
+}
+
+/* Ensure flexbox alignment in section headers */
+.wrapper.style1.special .inner,
+.wrapper.alt.style2 .inner,
+.wrapper.style3.special .inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+/* Ensure text alignment */
+.wrapper.style1.special h2,
+.wrapper.alt.style2 h2,
+.wrapper.style3.special h2 {
+    text-align: center;
+    width: 100%;
+    white-space: normal; /* Ensure text wraps within the container */
+}
+
+/* Style for links within h2 */
+h2 a {
+    color: inherit; /* Inherit color from h2 */
+    text-decoration: none; /* Remove underline */
+    display: inline; /* Ensure proper display */
+    word-break: break-word;
+    overflow-wrap: break-word;
+}
+
+/* Additional settings for content wrapping */
+.wrapper .content {
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
