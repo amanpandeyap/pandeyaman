@@ -3997,6 +3997,57 @@ input, select, textarea {
 	body.is-mobile.landing #footer {
 		background-color: #1d242a;
 	}
-	li a {
-		text-decoration: none; 
-	  }
+	a {
+		text-decoration: none;
+		display: flex;
+		justify-content: center; /* Center horizontally */
+		align-items: center; /* Center vertically */
+		line-height: 0; /* Remove line height */
+		border: none; /* Ensure there is no border */
+		padding: 0; /* Ensure there is no padding */
+		margin: 0; /* Ensure there is no margin */
+	}
+	
+	a img {
+		display: block; /* Ensure the image is displayed as a block */
+		border: none; /* Ensure there is no border */
+		padding: 0; /* Ensure there is no padding */
+		margin: 0; /* Ensure there is no margin */
+		vertical-align: bottom; /* Align the image to the bottom */
+	}	
+	
+	.wrapper.style1.special ul {
+		text-align: left;
+		padding-left: 20px; /* Optional: Adjust padding as needed */
+	}
+	/* Center align the icons major container */
+.icons.major {
+    display: flex;
+    justify-content: center; /* Center items horizontally */
+    align-items: center; /* Center items vertically if needed */
+    list-style: none; /* Remove bullet points */
+    padding: 0; /* Remove default padding */
+    margin: 0; /* Remove default margin */
+    gap: 20px; /* Optional: Add space between icons */
+}
+
+/* Ensure list items do not have default styles */
+.icons.major li {
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+}
+
+/* Remove underline from links and ensure proper display */
+.icons.major a {
+    text-decoration: none; /* Remove underline from the anchor tag */
+    display: inline-flex; /* Use inline-flex for better alignment */
+    align-items: center; /* Center align items vertically */
+}
+
+/* Style for the icon major class */
+.icons.major .icon {
+    display: inline-block; /* Ensure the icon is displayed as inline-block */
+    text-align: center; /* Center text within the icon */
+}
+
+	
